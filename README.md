@@ -11,6 +11,9 @@ then:
 `pipenv install`
 
 # usage
-create .env file using the template
+create .env file using the template with site username/password
 
-Then in the settings file fill out variables in the settings if using a different site
+Then in the settings file fill out variables they are currently set for BTN
+
+after running `pipenv shell` run `python main.py` or setup a cronjob to run it regularly
+ 
